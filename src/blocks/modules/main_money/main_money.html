@@ -1,0 +1,39 @@
+<section id="main_money" class="main_money">
+    <div class="main_money__in center_block">
+        <div class="main_money__item">
+            <div class="main_money__title" v-if="sizes.window <= 1023">Как получить деньги?</div>
+            <div class="main_money__l-side">
+                <img src="./img/money_img.png" alt="">
+                <img src="./img/money_img2.png" alt="">
+            </div>
+            <div class="main_money__r-side">
+                <div class="main_money__title" v-if="sizes.window >= 1023">Как получить деньги?</div>
+                <div class="main_money__list">
+                    <div class="main_money__list--item">
+                        <div class="main_money__list--number">1</div>
+                        <div class="main_money__list--info">
+                            <div class="main_money__list--tit">Авторизуйтесь</div>
+                            <div class="main_money__list--text">Выберите сумму займа и срок. Внесите анкетные данные, чтобы мы могли обработать заявку!</div>
+                        </div>
+                    </div>
+                    <div class="main_money__list--item">
+                        <div class="main_money__list--number">2</div>
+                        <div class="main_money__list--info">
+                            <div class="main_money__list--tit">Дождитесь решения</div>
+                            <div class="main_money__list--text">Оставайтесь с нами, среднее время ожидания 15 минут. Вам придет СМС с ответом!</div>
+                        </div>
+                    </div>
+                    <div class="main_money__list--item">
+                        <div class="main_money__list--number">3</div>
+                        <div class="main_money__list--info">
+                            <div class="main_money__list--tit">Получите деньги</div>
+                            <div class="main_money__list--text">Подпишите договор и отправьте его. Деньги будут перечислены на счет через 5 минут!</div>
+                            <div class="main_money__list--textmini">Время фактического поступления денег <br>на счет зависит от работы банка клиента.</div>
+                        </div>
+                    </div>
+                    <button class="main_money__btn" data-modal-id="3">Оформить займ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
